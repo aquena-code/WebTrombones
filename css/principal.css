@@ -1,0 +1,327 @@
+body{
+  margin: 0px;
+  background-color: hsl(0, 10%, 95%);
+}
+#header{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 85px;
+    background-color: hsl(0, 10%, 95%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Arial Narrow';
+    font-size: 100%;
+  }
+  /*div principal de la imagen*/
+  #divImg{
+
+    width: 60%;
+    margin: 0px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  /*la imagen*/
+  #header-img{
+    width: 300px;
+    height: 40%;
+  }
+
+  /*div principal de navegacion*/
+  #nav-bar{
+    width: 40%;
+    height: 100%;
+  }
+/*ul del menu*/
+  #menu{
+    margin: 0px;
+    list-style-type: none;
+    padding: 0px;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+/*li de las opciones*/
+  li{
+    padding: 5px;
+
+  }
+/*anchors de las opciones*/
+  .nav-link{
+    color: black;
+    text-decoration: none;
+    font-family: verdana;
+    font-size: 90%;
+  }
+
+  #main{
+    width: 960px;
+    margin: auto;
+    padding-left: 50px; 
+    font-family: Tahoma;
+  }
+
+  #form{
+    margin: 100px auto 10px auto;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+  }
+  #h1Main{
+    font-size: 135%;
+  }
+  #email{
+    background-color: white;
+    width: 275px;
+    padding: 5px;
+    font-size: 85%;
+    border: 1px solid hsl(0, 0%, 50%);
+    border-radius: 3px;
+    margin: 10px auto;
+  }
+  #submit{
+    font-weight: bold;
+    font-size: 110%;
+    background-color: hsl(45, 90%, 55%);
+    margin: 10px auto;
+    border-radius: 3px;
+    padding: 5px;
+    letter-spacing: 0.07em;
+    border: 0px solid white;
+    cursor: pointer;
+  }
+
+  .art_1{
+    width: auto;
+    height: 80px;
+    text-align: left;
+    background-repeat: no-repeat;
+    background-position: 0px 15px;
+    padding: 0px 0px 0px 100px;
+    margin: 20px auto;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .h2_Art{
+    margin: 0px;
+    
+  }
+  .p_Art{
+    margin: 0px;
+    line-height: 1.3em;
+    font-size: 95%;
+  }
+  #art1{
+    background-image: url("../imag/imgArt1.jpg");
+  }
+  #art2{
+    background-image: url("../imag/imgArt2.jpg");
+  }
+  #art3{
+    background-image: url("../imag/imgArt3.jpg");
+  }
+
+  #divVideo{
+    margin: 50px auto;
+    width: 560px;
+    height: 315px;
+  }
+  #video{
+    width: 100%;
+    height: 100%;
+  }
+  #secPrincing{
+    width: 1000px;
+    height: auto;
+    margin: 20px auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: hsl(0, 5%, 15%);
+    text-align: center;
+    padding: 0px;
+    display: flex;
+
+  }
+
+  .art_Prod{
+    width: 311px;
+    height: auto;
+    border: 1px solid black;
+    border-radius: 3px;
+    margin: 20px 10px;
+  }
+
+  .h3_Titulo{
+    margin: 0px;
+    width: 100%;
+    padding: 15px 0px;
+    font-size: 100%;
+    background-color: hsl(0, 5%, 90%);
+
+  }
+  .h4_Precio{
+    margin: 0px;
+    width: 100%;
+    padding: 15px 0px;
+    font-size: 160%;
+    font-weight: bold;
+
+  }
+  .p_Detalle{
+    margin: 0px;
+    width: 100%;
+    padding: 5px 0px;
+    line-height: 1.9em;
+  }
+
+  .btn_Select{
+    width: 120px;
+    margin: 15px 0px;
+    padding: 10px;
+    background-color: hsl(50, 95%, 55%);
+    border: 0px solid white;
+
+    font-size: 110%;
+    border-radius: 3px;
+    text-align: center;
+  }
+
+  #foo1{
+    background-color: hsl(0, 5%, 85%);
+    width: 960px;
+    height: 80px;
+    padding: 0px 20px;
+    font-family: Verdana, Tahoma, sans-serif;
+    margin: 20px auto 0px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  #ulFootMenu{
+    margin: 0px 0px 2px 0px;
+    padding: 0px;
+  }
+  .li_item{
+    display: inline;
+
+    padding: 0px 5px;
+  }
+
+  .a_item{
+    color: black;
+    text-decoration: none;
+
+    font-size: 90%;
+    
+  }
+
+  #pCopy{
+    color: hsl(0, 0%, 25%);
+    font-size: 85%;
+    margin: 0px;
+    margin: 2px 0px 0px 0px;
+  }
+
+  @media (max-width: 1020px){
+    #secPrincing{
+      width: auto;
+      flex: 1 0 310px;
+    }
+    #foo1{
+      width: auto;
+    }
+  }
+  @media (max-width: 800px){
+    #secPrincing{
+      flex-direction: column;
+      align-items: center;
+    }
+    .art_Prod{
+      width: 298px;
+    }
+  }
+  @media (max-width: 650px ){
+
+    #header{
+      height: auto;
+    }
+    #divImg{
+      width: 50%;
+      justify-content: center;
+    }
+    #header-img{
+      width: 85%;
+      height: 35%;
+    }
+    #menu{
+      flex-direction: column;
+    }
+
+    #nav-bar{
+      width: 50%;
+    }
+    #form{
+      margin: 90px auto 0px auto;
+    }
+  }
+
+  @media (max-width: 600px){
+    #header{
+      flex-direction: column;
+    }
+    #divImg{
+      height: 55px;
+      width: 350px;
+    }
+    #header-img{
+      width: 83%;
+      height: 60%;
+    }
+    #nav-bar{
+      height: 50%;
+    }
+    li{
+      padding: 3px;
+    }
+    #form{
+      margin: 130px auto 0px auto;
+    }
+  }
+
+  @media( max-width: 1050px){
+    #main{
+      width: auto;
+    }
+
+  }
+  @media (max-width: 550px){
+    #main{
+      padding: 0px;
+    }
+    .art_1{
+      padding: 0px;
+      align-items: center;
+      text-align: center;
+    }
+    #art1{
+      background-image: none;
+    }
+    #art2{
+      background-image: none;
+    }
+    #art3{
+      background-image: none;
+    }
+
+  }
+  @media (max-width: 580px){
+    #divVideo{
+      width: auto;
+    }
+  }
